@@ -1,0 +1,236 @@
+h3 {
+    text-align: center;
+}
+
+#stamp1 {
+    width: 50%;
+}
+
+#stamp2 {
+    width: 50%;
+}
+
+#postcard {
+    padding-top: 25px;
+    width: 100%;
+}
+
+#display {
+    padding-top: 125px;
+}
+
+.postcardListTo {
+    float: left;
+}
+
+.postcardListFrom {
+    float: right;
+}
+
+.postcardListImg {
+    width: 100%;
+}
+
+.postcardListClass {
+    float: left;
+    width: 50%;
+}
+
+#to,
+#from,
+#stamp {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#msg {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    text-align: center;
+    height: 100px;
+}
+
+#saveBut {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+#fbBut {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+}
+
+#fbPicture {
+    width: 150px;
+    height: auto;
+}
+
+
+/*------------------------------------------------*/
+
+#postTo {
+    position: absolute;
+    top: 50px;
+    left: 60px;
+}
+
+#postFrom {
+    position: absolute;
+    bottom: 50px;
+    left: 60px;
+}
+
+#postMsg {
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    width: 300px;
+    word-wrap: break-word;
+}
+
+#postImg {
+    position: absolute;
+    top: 60px;
+    right: 50px;
+}
+
+#postImgEle {
+    width: 90px;
+    height: 90px;
+}
+
+@media only screen and (max-width: 1199px) {
+    #postImg {
+        position: absolute;
+        top: 55px;
+        right: 45px;
+    }
+    #postImgEle {
+        width: 75px;
+        height: 75px;
+    }
+    #postMsg {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #postImg {
+        position: absolute;
+        top: 50px;
+        right: 40px;
+    }
+    #postImgEle {
+        width: 55px;
+        height: 55px;
+    }
+    #postMsg {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #postTo {
+        position: absolute;
+        bottom: 325px;
+        top: auto;
+        left: 60px;
+    }
+    #postFrom {
+        position: absolute;
+        bottom: 50px;
+        left: 60px;
+    }
+    #postMsg {
+        position: absolute;
+        bottom: 150px;
+        top: auto;
+        left: 60px;
+        width: 250px;
+        word-wrap: break-word;
+    }
+    #postImg {
+        position: absolute;
+        bottom: 295px;
+        top: auto;
+        right: 50px;
+    }
+    #postImgEle {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+
+@media only screen and (max-width: 560px) {
+    #postTo {
+        position: absolute;
+        bottom: 270px;
+        top: auto;
+        left: 60px;
+    }
+    #postFrom {
+        position: absolute;
+        bottom: 50px;
+        left: 60px;
+    }
+    #postMsg {
+        position: absolute;
+        bottom: 100px;
+        top: auto;
+        left: 60px;
+        width: 215px;
+        word-wrap: break-word;
+    }
+    #postImg {
+        position: absolute;
+        bottom: 235px;
+        top: auto;
+        right: 45px;
+    }
+    #postImgEle {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    #postTo {
+        position: absolute;
+        bottom: 200px;
+        top: auto;
+        left: 30px;
+    }
+    #postFrom {
+        position: absolute;
+        bottom: 25px;
+        left: 30px;
+    }
+    #postMsg {
+        position: absolute;
+        bottom: 50px;
+        top: auto;
+        left: 30px;
+        width: 180px;
+        word-wrap: break-word;
+    }
+    #postImg {
+        position: absolute;
+        bottom: 175px;
+        top: auto;
+        right: 35px;
+    }
+    #postImgEle {
+        width: 50px;
+        height: 50px;
+    }
+}
