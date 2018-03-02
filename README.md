@@ -1,2 +1,2 @@
-# postcard_app
-simple virtual postcard app created with React.js
+# Postcard App
+Individual Term 3 Project - Simple virtual postcard app created with React.js
